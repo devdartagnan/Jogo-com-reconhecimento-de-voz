@@ -4,8 +4,8 @@ Rápida descrição do objetivo de fazer esse projeto
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Jogo acerte o número (Web speech Api)**
-| :label: Tecnologias | javaScript, html, css
+| :sparkles: Nome        | **Jogo acerte o número (Reconhecimento de voz)**
+| :label: Tecnologias | javaScript, html, css, Web speech Api
 | :rocket: URL         | https://jogo-com-reconhecimento-de-voz-kappa.vercel.app/
 | :fire: Desafio     | 
 
