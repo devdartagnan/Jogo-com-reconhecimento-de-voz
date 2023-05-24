@@ -7,6 +7,13 @@ function validacaoChute(e) {
         </div>`
         return
     }
+    if(chute === 'Game over'){
+        document.body.innerHTML = `
+        <body style="background-color:red;">
+            <h2 class="titulo">Game  Over!</h2>
+            <button id="jogarNovamente" class="jogarNovamente">Jogar novamente</button>
+        <ybody>`
+    }
     if (verificaEntreValores(chute)) {
         resultado.innerHTML += `
         <div class="resposta-dica">
@@ -17,7 +24,8 @@ function validacaoChute(e) {
     if (chute === numeroSecreto) {
         document.body.innerHTML = `
             <h2 class="titulo">Você acertou!</h2>
-            <h3 class="sub-titulo">O número secreto era ${numeroSecreto}.</h3>`
+            <h3 class="sub-titulo">O número secreto era ${numeroSecreto}.</h3>
+            <button id="jogarNovamente" class="jogarNovamente">Jogar novamente</button>`
     }
     if (!verificaEntreValores(chute) && chute < numeroSecreto) {
         resultado.innerHTML += `

@@ -17,4 +17,9 @@ function exibeOChute(e) {
     <div>Você disse:</div>
     <span class="box">${e}</span>`
 }
-recognition.addEventListener('end', ()=> recognition.start())
+recognition.addEventListener('end', () => recognition.start())
+
+document.body.addEventListener('click', (e) => {
+    if (e.target.id === 'jogarNovamente')
+        location.reload()
+})

@@ -46,3 +46,13 @@ body {
     padding: 20px;
     margin: 20px;
 }
+.jogarNovamente{
+    background-color: var(--cor-escura);
+    border: none;
+    border-radius: 6px;
+    color: var(--cor-primaria);
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    padding: 1rem;
+}
